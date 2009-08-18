@@ -5,7 +5,7 @@ Ungap your phonegap app to prepare it for the iphone app store. Increases your c
 h2. Usage
 
 <pre>
-  git://github.com/sintaxi/phonegap.git
+  git clone git://github.com/sintaxi/phonegap.git
   cd phonegap
   rm -rf .git
   git clone git://github.com/scottmotte/phoneungap.git
