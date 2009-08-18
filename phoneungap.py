@@ -16,8 +16,8 @@ Usually you would use this in the root PhoneGap directory
 Defaults:
 
   in_directory = "iphone"
-  out_directory = "twinstang"
-  out_alias = "Twinstang"
+  out_directory = "myapp"
+  out_alias = "MyappName"
 """
 
 def main(argv):

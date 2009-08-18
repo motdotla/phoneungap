@@ -1,0 +1,17 @@
+h1. phoneungap
+
+Ungap your phonegap app to prepare it for the iphone app store. Increases your chances of your app being accepted.
+
+h2. Usage
+
+<code>
+git://github.com/sintaxi/phonegap.git
+cd phonegap
+rm -rf .git
+git clone git://github.com/scottmotte/phoneungap.git
+mv phoneungap/phoneungap.py phoneungap.py
+rm -rf phoneungap
+python phoneungap.py iphone myappname MyappName
+</code>
+
+This will rename all your files appropriately. Then you should be able to run your app in the xcode simulator.
