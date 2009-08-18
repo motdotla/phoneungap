@@ -79,7 +79,7 @@ def copy_phonegap_js(out_directory):
 def copy_and_recursive_replace(source_directory, new_directory, mapping):
     shutil.copytree(source_directory, new_directory)
     recursive_replace(new_directory, mapping)
-    copy_phonegap_js(source_directory)
+    copy_phonegap_js(new_directory)
     return new_directory
     
 main(sys.argv)

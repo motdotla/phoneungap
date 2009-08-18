@@ -8,10 +8,16 @@ h2. Usage
   git clone git://github.com/sintaxi/phonegap.git
   cd phonegap
   rm -rf .git
+  open up iphone/PhoneGap.xcodeproj
+  press Build & Go (this will generate the phonegap/lib folder which we will need - as well it will show you how your app should work after renaming it. we want it to work just like PhoneGap.xcodeproj so we can go on our merry way developing.)
   git clone git://github.com/scottmotte/phoneungap.git
   mv phoneungap/phoneungap.py phoneungap.py
   rm -rf phoneungap
   python phoneungap.py iphone myappname MyappName
+  cd myappname
+  chmod 755 build-myappname.sh
+  open up myappname/Myappname.xcodeproj
+  press Build & Go
 </pre>
 
 This will rename all your files appropriately. Then you should be able to run your app in the xcode simulator.
