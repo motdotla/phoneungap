@@ -4,11 +4,15 @@ Ungap your phonegap app to prepare it for the iphone app store. Increases your c
 
 h2. Usage
 
+WARNING: On 2nd though, you should probably download the stable version rather than check it out via github. There must be permission issues because the downloaded version worked for me fully, but the github cloned did not. I received failures on vibrate and get location. You can get the downloads here:
+
+<a href="http://github.com/sintaxi/phonegap/downloads">http://github.com/sintaxi/phonegap/downloads</a>
+
 <pre>
-  git clone git://github.com/sintaxi/phonegap.git
-  cd phonegap
-  git checkout -b 0.7.4 # use the latest stable branch
-  rm -rf .git
+  <strike>git clone git://github.com/sintaxi/phonegap.git</strike>
+  <strike>cd phonegap</strike>
+  <strike>git checkout -b 0.7.4 # use the latest stable branch</strike>
+  <strike>rm -rf .git</strike>
   open iphone/PhoneGap.xcodeproj
 </pre>
 
