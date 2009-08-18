@@ -23,4 +23,6 @@ Press Build &amp; Go - this will generate the phonegap/lib folder which we will 
   open Myappname.xcodeproj
 </pre>
 
+Next do a find &amp; replace in phonegap/lib/iphone/myappname.js and myappname-min.js replacing all instances of PhoneGap with myappname.
+
 Press Build &amp; Go - your app should now be running with no instances of PhoneGap. Build your app out as you please.
