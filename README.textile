@@ -7,6 +7,7 @@ h2. Usage
 <pre>
   git clone git://github.com/sintaxi/phonegap.git
   cd phonegap
+  git checkout -b 0.7.4 # use the latest stable branch
   rm -rf .git
   open iphone/PhoneGap.xcodeproj
 </pre>
@@ -15,7 +16,6 @@ Press Build &amp; Go - this will generate the phonegap/lib folder which we will 
   
 <pre>
   git clone git://github.com/scottmotte/phoneungap.git
-  git checkout -b 0.7.4 # use the latest stable branch
   mv phoneungap/phoneungap.py phoneungap.py
   rm -rf phoneungap
   python phoneungap.py iphone myappname MyappName
